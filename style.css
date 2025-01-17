@@ -8,445 +8,56 @@ body{
 
 /* THis is nvbr is the computer*/
 
-nav.computer{
-    position: sticky;
-    display: flex;
-    padding: 25px;
+header div.container{
     background-color: #fff;
-}
-
-nav.computer ul{
-    position: absolute;
-    right: 0;
-    list-style: none;
+    height: 60px;
     display: flex;
-    width: fit-content;
-    
-}
-nav.computer img{
-    height: 32px;
+    align-items: center;
+    padding: 10px;
 }
 
-nav.computer a{
+header div.container div.logo{
+    display: flex;
     text-decoration: none;
-    color:#000;
-    margin: 15px;
-    font-size: 18px;
+    align-items: center;
+    font-family: "Poppins", serif;
+}
+header div.container div.logo a{
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
 }
 
-nav.computer a:hover{
-    border-bottom: 2px solid #000;
-    transition: 0.5s;
-
-}
-nav.computer img#menu{
-    display: none;
-}
-
-/* THis is nvbr is the Phone*/
-#drk-side{
-    position: fixed ;
+header div.container nav ul{
+    position: fixed;
+    padding: 0;
     right: 0;
+    width: 300px;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.416);
-    z-index: 69;
-    width: 100%;
+    margin: 0;
     height: 100%;
-    display: none;
-}
-
-nav.phone{
-    position: fixed ;
-    right: 0;
-    top: 0;
     background-color: #fff;
     display: flex;
-    padding: 25px 10px ;
-    z-index: 999;
-    width: 250px;
-    height: 100%;
-    display: none;
-    border-radius: 0%;
-    margin: 0%;
-}
-nav.phone ul{
+    flex-direction: column;
     list-style: none;
-    padding-left: 0;
+    display: none;
 }
-nav.phone ul li{
-    margin: 15px; 
+header div.container nav ul li{
+    padding: 10px;
+    margin: 10px;
 }
-nav.phone a{
+header div.container nav ul li a{
     text-decoration: none;
-    color:#000;
-    margin: 15px;
-    font-size: 18px;
-}
-nav.phone img{
-    position: absolute;
-    right: 15px;
-    top:15px;
-}
-@media(max-width: 400px){
-    /* THis is nvbr is the computer*/
-    nav.computer  .suff {
-        display: none;
-    }
-    nav.computer  ul{
-        margin: 0%;
-        padding-left: 0%;
-    }
-
-    nav.computer img#menu{
-        display: block;
-        position: absolute;
-        top: 0px;
-        right: 15px;;
-    }
-    nav.computer img{
-        height: 2.75vh;
-    }
+    color: #000;
+    font-size: 0.9em;
 }
 
-    /* THis is first article*/
+/* Assets */
 
-    article#piece1{
-        width: 80%;
-        height: 70vh;
-        text-align: center;
-        position: relative;
-        left: 10%;
-        float: left; 
-        overflow: hidden;
-        background-image: url("/assets/extr/mobile-phones-g37c732e01_640.jpg");
-    }
-    video{
-        z-index: 5;
-        position: absolute;
-        left: 50%;
-        top: 70%;
-        transform: translate(-50%, -50%);
-        max-width: 100%;
-        min-height: 100%;
-    }
-    @media(max-width: 1475px){
-        article#piece1{
-            width: 100%;
-            left: 0%;
-
-        }
-
-        
-    }
-
-    article#piece1 h1{
-        font-family: "LilGrotesk-bold" ;
-        color: #fff;
-        z-index: 10;
-        font-size: 35px;
-        text-shadow: 
-            0 0 7px #000,
-            0 0 10px #000,
-            0 0 21px  #000,
-            0 0 7px #0000,
-            0 0 10px #000,
-            0 0 21px #000,
-            0 0 42px #000,
-            0 0 82px #000,
-            0 0 92px #000,
-            0 0 105px #000,
-            0 0 151px #000;
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            max-width: 100%;
-            min-height: 100%;
-        
-    }
-
-    /* THis is the Phones*/
-
-    main#phones{
-        float: left;
-        position: relative;
-        width: 80%;
-        left: 10%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    main#phones h2{
-        font-family: "MRK" ;
-        font-size: 32px;
-        font-weight: 600;
-        width: 92% ;
-        margin-left: 8%;
-        height: fit-content;
-    }
-    .phone{
-        width: 250px;
-        height: 450px;
-        background-color: #000;
-        border-radius: 15px;
-        margin-bottom: 15px;
-        margin-right: 5px;
-        overflow: hidden;
-        padding: 0;
-        box-shadow: 
-        4px 2px 12px #515151;
-    }
-    .phone:hover{
-        transform: 0.3s;
-        box-shadow: 
-        4px 2px 12px #515151,
-        8px 4px 24px #515151;
-    }
-    @media (max-width:400px) {
-        main#phones{
-            width: 100%;
-            left: 0%;
-            justify-content: space-around;
-        }
-        .phone{
-            width: 45vw;
-            height: 310px;
-
-        }
-        
-    }
-    .phone-img{
-        position: relative;
-        width: 100%;
-        height: 65%;
-        background-color: #fff;
-        background-position: center;
-        background-repeat: none;
-        background-size: cover;
-    }
-    #phone1{
-        background-image: url("/fidel/iphone\ 11.jpg");
-    } 
-    #phone2{ 
-        background-image: url("/fidel/iphone\ 6s.jpg");
-    } 
-    #phone3{ 
-        background-image: url("/fidel/iphone\ 8.jpg");
-    }
-    #phone4{ 
-        background-image: url("/fidel/iphone\ x.jpg");
-    }
-    #phone5{
-        background-image: url(/assets/phones/mobiles-nav-card-apple2-200323.webp);
-    }
-    #phone6{
-        background-image: url(/assets/phones/IX-plus.jpg);
-    }
-    #phone7{
-        background-image: url(/assets/phones/IX-Pro.jpg);
-    }
-    #phone8{
-        background-image: url(/assets/phones/weix7xsvg8npziwfwn2b.jpg);
-    }
-
-
-
-    .phone-price{
-        position: relative;
-        width: 100%;
-        height: 35%;
-        background-color: #fff;
-        padding-left: 5px;
-    }
-    @media (max-width: 400px) {
-        .phone-price{
-            height: 40%;
-        }
-        
-        .phone-img{
-        height: 60%;
-        }
-}
-
-    .phone-price h5{
-        margin: 0;
-        padding-top: 5px;
-        font-size: 14px;
-        font-weight: 500;
-        font-family: "LilGrotesk-reg";
-        width: 95%;
-    }
-    .phone-price p{
-        margin: 0;
-        margin-top: 5px;
-        color: #515151;
-    }
-    .phone-price button{
-        border: 0;
-        background-color: #123456;
-        color: #fff;
-        font-size: 14px;
-        margin: 0;
-        margin-top: 15px;
-        width: 80%;
-        height: 35px;
-        border-radius: 5px;
-        margin-left: 8%;
-        cursor: pointer;
-    }
-    .phone-price button:hover{
-        color: #123456;
-        background-color: #fff;
-        transition: 0.5s;
-        border: 2px solid #123456;
-    }
-
-    @media (max-width: 400px){
-        .phone-price h5{
-            margin: 0;
-            font-size: 13px;
-        }
-        .phone-price p{
-            margin: 0;
-        }
-        .phone-price button{
-            margin: 0;
-            margin-top: 6px;
-            width: 80%;
-            border-radius: 5px;
-            margin-left: 8%;
-        }
-        
-    }
-
-
-    /* THis is second article, services*/
-    article#piece2{
-        width: 80%;
-        left: 10%;
-        position: relative;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        float: left;
-    }
-
-    article#piece2 h2{
-        font-family:"LilGrotesk-reg";
-        font-weight: 600;
-        font-size: 32px;
-        height: 50px;
-        width: 100%;
-        margin-bottom: 5px;
-    }
-
-    .services{
-        color: #fff;
-        text-align: center;
-        width: 275px;
-        height: 275px;
-        border-radius: 17px;
-        margin-bottom: 15px;
-        background-color: #fff;
-        background-position: center;
-        background-repeat: none;
-        background-size: cover;
-    }
-
-    .services:hover{
-        transition: 0.5s;
-        box-shadow: 
-        -5px -5px 20px #fbd5fb ;
-    }
-    .services p{
-        color: #fff;
-        font-size: 18px;
-        font-family: "sofia";
-        font-weight: 600;
-    }
-    #service1{
-        background-image: url("assets/services-we-render/num1.jpeg");
-    }
-    #service2{
-        background-image: url("assets/services-we-render/num2.jpg");
-    }
-    #service3{
-        background-image: url("assets/services-we-render/num3.jpg");
-    }
-    #service4{
-        background-image: url("assets/services-we-render/num4.jpg");
-    }
-
-    footer{
-        position: relative;
-        bottom: 0px;
-        width: 100%;
-        background-color: #fff;
-        float: right;
-        display: flex;
-        flex-wrap: wrap;
-        border-top:2px solid #515151 ;
-    }
-    div#logos{
-        background-color: #fff;
-        padding: 2px;
-        width: 100%;
-        height: 45px;
-        display: flex;
-        justify-content: center;
-    }
-    div#logos img{
-        margin-top: 5px;
-        margin-right: 15px;
-        height: 35px;
-        cursor: pointer;
-    }
-
-
-    footer div ul{
-        list-style: none;
-        padding-left: 15px;
-        margin: 0px;
-    }
-     
-    footer div ul {
-        text-decoration: none;
-        color: #515151;
-        text-decoration-style: none;
-        font-size: 12px;
-    }
-    footer p#one{
-        text-align: center;
-    }
-
-    .info{
-        margin-left: 15px;
-        width: 40%;
-        border-right: 2px solid hsla(300, 67%, 20%, 1);
-    }
-    footer h4{
-        margin: 0 0 5px 15px;
-        
-    }
-
-    @font-face{
-        font-family:"sofia" ;
-        src: url("/assets/fonts/sofiapro-light.otf");
-    }
-
-    @font-face{
-        font-family: "LilGrotesk-bold" ;
-        src: url("/assets/fonts/LilGrotesk-Bold.otf");
-    }
-    @font-face{
-        font-family: "LilGrotesk-reg" ;
-        src: url("/assets/fonts/LilGrotesk-Regular.otf");
-    }
-    @font-face{
-        font-family:"MRK-bold" ;
-        src: url("/assets/fonts/MRKMaston-Bold.ttf");
-    }
-    @font-face{
-        font-family: "MRK_reg" ;
-        src: url("/assets/fonts/MRKMaston-Regular.ttf");
-    }
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
