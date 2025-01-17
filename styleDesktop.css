@@ -1,0 +1,55 @@
+@media (min-width: 768px) {
+    /* Desktop layout for navbar */
+    header div.container {
+        position: sticky;
+        background-color: #fff;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        width: 100%;
+    }
+
+    header div.container div.logo a{
+        font-size: 24px;
+        margin: 0 20px;
+    }
+
+    /* Remove hamburger menu for desktop */
+    header svg {
+        display: none;
+    }
+
+    /* Menu section for desktop */
+    header div.container nav.menu {
+        position: relative;
+        right: 0;
+        padding: 0;
+        margin: 0;
+        width: 500px;
+        height: auto;
+        background-color: transparent;
+    }
+
+    header div.container nav ul {
+        padding: 0;
+        width: max-content;
+        margin: 0;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header div.container nav ul li {
+        padding: 0 15px;
+        margin: 0;
+    }
+
+    header div.container nav ul li a {
+        text-decoration: none;
+        color: #000;
+        font-size: 1em;
+    }
+}
