@@ -152,5 +152,31 @@ div.hero-content#hero-order button{
 section.hero div.hero-content#hero-id{
     background-color: #0083BB;
 }
+/* Hide scrollbar for Chrome, Safari, and Opera */
+section.hero div.hero-content::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+section.hero div.hero-content {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+div.toggle-change{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+}
+div.toggle-change span{
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    background-color:#F0F0F0 ;
+    margin: 5px;
+}
+div.toggle-change span#blue{
+    background-color: #0083BB;
+}
 
 /* Assets */
