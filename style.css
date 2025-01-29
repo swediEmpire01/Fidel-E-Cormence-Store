@@ -111,7 +111,7 @@ section.hero {
     justify-content: flex-start;
     flex-direction: row;
     width: 90%;
-    height: 180px;
+    height: 225px;
     margin-left: 5%;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
@@ -129,6 +129,9 @@ section.hero div.hero-content {
     border-radius: 16px;
     font-family: "Poppins", serif;
     font-size: large;
+}
+section.hero div.hero-content img{
+    display: none;
 }
 section.hero div.hero-content#hero-order{
     margin-right: 10px;

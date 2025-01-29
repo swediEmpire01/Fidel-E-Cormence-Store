@@ -52,4 +52,50 @@
         color: #000;
         font-size: 1em;
     }
+
+    /* Hero Section */
+    section.hero {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        padding: 0 40px;
+        flex: 0;
+        height: max-content;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    section.hero div.hero-content {
+        flex-basis: auto;
+        height: 395px;
+        margin: 0;
+    }
+    section.hero div.hero-content img{
+        display: block;
+        width: 80%;
+    }
+    section.hero div.hero-content#hero-order{
+        width: 282px;
+        margin: 0 0 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    section.hero div.hero-content#hero-id {
+        flex-grow: 1;
+        max-width: 1000px;
+    }
+    div.hero-content#hero-order h2{
+        font-size: 22px;
+        margin: 0%;
+    }
+    section.hero div.hero-content#hero-id{
+        background-color: #0083BB;
+    }
+
+    div.toggle-change{
+        display: none
+    }
 }
