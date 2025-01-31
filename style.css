@@ -198,7 +198,6 @@ div.toggle-change span#blue{
     font-family: "Work Sans", serif;
     font-size: medium;
  }
-
  section.products-menu div.icon-menu-container{
     display: flex;
     justify-content: space-between;
@@ -234,17 +233,11 @@ section.products{
     margin-left: 5%;
     flex-wrap: wrap;
 }
-section.products div.product{
-    flex: 0 0 48%;
-    margin: 1%;
-    padding: 10px;
-    border-radius: 16px;
-    background-color: #F0F0F0;
+section.products h2{
+    width: 100%;
     font-family: "Poppins", serif;
     font-size: large;
-}
-section.products div.product img{
-    width: 100%;
-    border-radius: 16px;
-} 
+    margin-top: 30px;
+ }
+
 /* Assets */

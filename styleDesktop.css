@@ -99,4 +99,32 @@
     div.toggle-change{
         display: none
     }
+    
+    /* Products Menu Section */
+    section.products-menu{
+        width: 90%;
+        margin-left: 5%;
+    }
+    section.products-menu h2{
+        font-size: large;
+     }
+     section.products-menu h3{
+        font-size: medium;
+     }
+    section.products-menu div.icon-menu{
+        width: 260px;
+        height: 120px;
+        border: solid 3px #AEAEB2;
+        border-radius: 16px;
+        overflow: hidden;
+        flex-direction: row;
+        cursor: pointer;
+     }
+    div.icon-menu-container div.icon-menu-img{
+        width: fit-content;
+        height: 95px;
+        border: none;
+        border-radius: 0;
+        overflow:visible;
+     }
 }
