@@ -3,8 +3,6 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
-
-
 /* THis is nvbr is the computer*/
 
 header div.container{
@@ -321,5 +319,6 @@ div.product-container div.price-action button{
     border: none;
     font-size: 13px;
     height: 31px;
+    cursor: pointer;
 }
 /* Assets */

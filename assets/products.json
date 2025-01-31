@@ -1,0 +1,60 @@
+{
+    "phones":{
+        "iphone":{
+            "name":"iPhone 16 Pro Max",
+            "price":1200,
+            "space":"1TB",
+            "ram":"8GB",
+            "screen":"6.3",
+            "img":"https://img-prd-pim.poorvika.com/cdn-cgi/image/width=1600,height=1600,quality=75/product/samsung-galaxy-s25-ultra-5g-titanium-silverblue-1tb-12gb-ram-Front-back-view.png"
+        },
+        "iphone2":{
+            "name":"Samsung Galaxy S25 Ultra 5G",
+            "price":800,
+            "space":"256GB",
+            "ram":"12GB",
+            "screen":"6.2",
+            "img":"https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/Samsung-galaxy-s25-5g-mint-512gb-12gb-ram-Front-Back-View.png"
+        },
+        "iphone3":{
+            "name":"Google Pixel 9 Pro 5G",
+            "price":1100,
+            "space":"512",
+            "ram":"16GB",
+            "screen":"6.8",
+            "img":"https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/google-pixel-9-pro-5g-hazel-2566gb-16gb-ram-front-back-view.png"
+        },
+        "iphone4":{
+            "name":"Samsung A06",
+            "price":2500,
+            "space":"64GB",
+            "ram":"4Gb",
+            "screen":"6.7",
+            "img":"https://pepcell.com/cdn/shop/files/samsunga06fb.png?v=1728046861&width=713"
+        },
+        "iphone5":{
+            "name":"Apple iPhone 16 ",
+            "price":1000,
+            "space":"512GB",
+            "ram":"8GB",
+            "screen":"6.1",
+            "img":"https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/Apple-iphone-16-white-512gb-Front-Back-View.png"
+        },
+        "iphone6":{
+            "name":"Google Pixel 8A 5G",
+            "price":1200,
+            "space":"128GB",
+            "ram":"8GB",
+            "screen":"6.1",
+            "img":"https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/google-pixel-8a-5g-obsidian-128gb-8gb-ram-front-back-view.png"
+        },
+        "iphone7":{
+            "name":"Huawei Nova 12i",
+            "price":5499,
+            "space":"256GB",
+            "ram":"8GB",
+            "screen":"6.7",
+            "img":"https://pepcell.com/cdn/shop/files/huawei12ifrontandback.png?v=1720088239&width=1946"
+        }  
+    }
+}
