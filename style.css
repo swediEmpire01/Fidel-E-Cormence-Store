@@ -16,7 +16,6 @@ header div.container{
     align-items: center;
     justify-content: space-between;
 }
-
 header div.container div.logo{
     display: flex;
     text-decoration: none;
@@ -110,7 +109,7 @@ section.hero {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
-    width: 90%;
+    width: 90vw;
     height: 225px;
     margin-left: 5%;
     overflow-x: scroll;
@@ -118,7 +117,7 @@ section.hero {
 }
 
 section.hero div.hero-content {
-    flex: 0 0 78vw;
+    flex: 0 0 80vw;
     scroll-snap-align: start;
     background-color: #F0F0F0;
     display: flex;
@@ -238,6 +237,79 @@ section.products h2{
     font-family: "Poppins", serif;
     font-size: large;
     margin-top: 30px;
- }
+}
+div.product-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.product{
+    width: 162.5px;
+    height: 250px;
+    border-radius: 16px;
+    background-color: #F0F0F0;
+    margin-bottom: 15px;
+}
+div.product-container div.product-img{
+    width: 100%;
+    height: 156px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+div.product-container div.product-img img{
+    width: 80%;
+}
+div.product-container div.product-specs{
+    height: 84px;
+    padding: 0 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 
+}
+div.product-container div.product-specs h3{
+    font-family: "Work Sans", serif;
+    font-size: small;
+    height: max-content;
+    margin: 0 0 5px;
+}
+div.product-container div.product-specs div.specs{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 21px;
+}
+div.product-container div.product-specs div.spec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 21px;
+}
+div.product-container div.product-specs div p{
+    font-family: "Poppins", serif;
+    font-size: 10px;
+    font-weight: 600;
+    height: max-content;
+    margin: 0 0 0 3px;
+}
+div.product-container div.price-action{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+div.product-container div.price-action button{
+    background-color: black;
+    color: #fff;
+    font-family: "Poppins", serif;
+    border-radius: 15px;
+    border: none;
+    font-size: 10px;
+}
 /* Assets */
