@@ -44,7 +44,7 @@ heroBox.addEventListener('scroll', (e) =>{
     }
 });
 // The following code is for the product Section 
-var products;
+var products= [];
 const productContainer = document.querySelector('.product-container');
 function createProductCard(product){
     const productCard  = `
@@ -132,7 +132,16 @@ async function fetchAndDisplayProducts() {
             laptops.push(element); 
         }
     }
-    products.push(laptops);
+    // This is the Tablets array
+    var tablets = data.Tablets;
+    const tabletArray = Object.values(tablets);
+    var tablets = [];
+    for (let key in tabletArray) {
+        if (Object.prototype.hasOwnProperty.call(tabletArray, key)) {
+            const element = tabletArray[key];
+            tablets.push(element); 
+        }
+    }
 
     if (!Array.isArray(laptopArray)) {
         throw new Error('Invalid data structure - expected laptops to be an object of products');
@@ -149,6 +158,10 @@ async function fetchAndDisplayProducts() {
             phones.push(element); 
         }
     }
+
+    
+    products.push(laptops);
+    products.push(tablets);
     products.push(phones);
     
     if (!Array.isArray(phoneArray)) {
@@ -163,9 +176,13 @@ async function fetchAndDisplayProducts() {
 }
 async function displayProducts() {
     await fetchAndDisplayProducts();
-    products[0].forEach(product => {
-        createProductCard(product);
-    });
+    products.pop();
+    var productBox= [];
+    for (let index = products.length - 1; index >= 0; index--) {
+        products[index].forEach(product => {
+            createProductCard(product);
+        });
+    }
 }
   
 // Usage

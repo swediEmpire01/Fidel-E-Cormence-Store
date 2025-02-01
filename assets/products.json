@@ -2,28 +2,37 @@
     "phones":{
         "iphone":{
             "brand":"Apple",
-            "name":"iPhone 16 Pro Max",
-            "price":1200,
-            "space":"1TB",
-            "ram":"8GB",
-            "screen":"6.3",
-            "img":"https://img-prd-pim.poorvika.com/cdn-cgi/image/width=1600,height=1600,quality=75/product/samsung-galaxy-s25-ultra-5g-titanium-silverblue-1tb-12gb-ram-Front-back-view.png"
+            "name":"Apple iPhone 12 Pro",
+            "price":8800,
+            "space":"128GB",
+            "ram":"6GB",
+            "screen":"6.1",
+            "img":"https://m.media-amazon.com/images/I/71b+EZksqEL._AC_SY741_.jpg"
+        },
+        "iphone1":{
+            "brand":"Redmi",
+            "name":"Redmi A3",
+            "price":1800,
+            "space":"128GB",
+            "ram":"6GB",
+            "screen":"6.7",
+            "img":"https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=400,quality=75/product/redmi-a3-olive-green-128gb-6gb-ram-front-back-view.png"
         },
         "iphone2":{
-            "name":"Samsung Galaxy S25 Ultra 5G",
-            "price":800,
-            "space":"256GB",
-            "ram":"12GB",
-            "screen":"6.2",
-            "img":"https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/Samsung-galaxy-s25-5g-mint-512gb-12gb-ram-Front-Back-View.png"
+            "name":"Apple iPhone 12",
+            "price":7500,
+            "space":"128GB",
+            "ram":"6GB",
+            "screen":"6.1",
+            "img":"https://pepcell.com/cdn/shop/files/iPhone1264GB.png?v=1694082754&width=713"
         },
         "iphone3":{
-            "name":"Google Pixel 9 Pro 5G",
-            "price":1100,
-            "space":"512",
-            "ram":"16GB",
-            "screen":"6.8",
-            "img":"https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/google-pixel-9-pro-5g-hazel-2566gb-16gb-ram-front-back-view.png"
+            "name":"Apple iPhone 7 Plus",
+            "price":2800,
+            "space":"32GB",
+            "ram":"3GB",
+            "screen":"5.5",
+            "img":"https://www.janado.de/cdn/shop/products/apple-iphone-7-plus-32gb-rosegold_1097x.png?v=1733835649"
         },
         "iphone4":{
             "name":"Samsung A06",
@@ -34,12 +43,12 @@
             "img":"https://pepcell.com/cdn/shop/files/samsunga06fb.png?v=1728046861&width=713"
         },
         "iphone5":{
-            "name":"Apple iPhone 16 ",
-            "price":1000,
-            "space":"512GB",
+            "name":"Apple iPhone 11 ",
+            "price":5500,
+            "space":"64GB",
             "ram":"8GB",
             "screen":"6.1",
-            "img":"https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/Apple-iphone-16-white-512gb-Front-Back-View.png"
+            "img":"https://media.tracfone.com/wps/contenthandler/dav/content/libraries/wcm.library.phones/components/GPAPI11C64BKP/wcm.comps.image/st_ecom_large.png"
         },
         "iphone6":{
             "name":"Google Pixel 8A 5G",
