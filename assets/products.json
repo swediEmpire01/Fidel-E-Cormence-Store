@@ -1,6 +1,7 @@
 {
     "phones":{
         "iphone":{
+            "brand":"Apple",
             "name":"iPhone 16 Pro Max",
             "price":1200,
             "space":"1TB",
@@ -64,5 +65,81 @@
             "screen":"6.7",
             "img":"https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/apple-iphone-15-plus-black-128gb-front-back-view.png"
         }  
+    },
+    "Tablets":{
+        "tablet1":{
+            "name":"Apple iPad Pro 12.9",
+            "price":1200,
+            "space":"128GB",
+            "ram":"4GB",
+            "screen":"12.9",
+            "img":"https://m.media-amazon.com/images/I/81rxOSprYqL._AC_SX342_.jpg"
+        },
+        "tablet2":{
+            "name":"Apple iPad (10th Generation)",
+            "price":400,
+            "space":"64GB",
+            "ram":"4GB",
+            "screen":"10.9",
+            "img":"https://m.media-amazon.com/images/I/61hZrbHRMWL._AC_SX342_.jpg"
+        },
+        "tablet3":{
+            "name":"Google Pixel Tab 9 Pro",
+            "price":550,
+            "space":"128GB",
+            "ram":"8GB",
+            "screen":"11",
+            "img":"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6543/6543740cv11d.jpg;maxHeight=2000;maxWidth=2000;format=webp"     
+        },
+        "tablet4":{
+            "name":"Samsung Galaxy Tab S7 Wi-Fi",
+            "price":250,
+            "space":"256GB",
+            "ram":"6GB",
+            "screen":"11",
+            "img":"https://m.media-amazon.com/images/I/610Bn3iYSzL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        "tablet5":{
+            "name":"Galaxy Tab S10 Ultra 5G(14.6)",
+            "price":11002,
+            "space":"512GB",
+            "ram":"12GB",
+            "screen":"14.6",
+            "img":"https://images.samsung.com/is/image/samsung/p6pim/levant/sm-x926bzsemea/gallery/levant-galaxy-tab-s10-ultra-sm-x920-sm-x926bzsemea-543638919?$684_547_PNG$"
+        }
+    },
+    "Laptops":{
+        "laptop1":{
+            "name":"Dell Inspiron 15 3000 15.6-inch Full HD 11th Gen",
+            "price":2000,
+            "space":"500GB",
+            "ram":"14GB",
+            "screen":"15.6",
+            "img":"https://m.media-amazon.com/images/I/61zRDADh+YS._AC_SL1500_.jpg"
+        },
+        "laptop2":{
+            "name":"HP ProBook 440 G4 Business Laptop",
+            "price":3000,
+            "space":"256GB",
+            "ram":"16GB",
+            "screen":"14",
+            "img":"https://m.media-amazon.com/images/I/61wLKPXpnHL._AC_SX679_.jpg"
+        },
+        "laptop3":{
+            "name":"Fujitsu LIFEBOOK AH512",
+            "price":1300,
+            "space":"500GB",
+            "ram":"4GB",
+            "screen":"15.6",
+            "img":"https://cdn.cs.1worldsync.com/2c/bd/2cbd8bc0-a0ce-43dc-bdee-9c5c4929404b.jpg"
+        },
+        "laptop4":{
+            "name":"Lenovo B50-80 laptop - i3 5th Gen",
+            "price":1800,
+            "space":"500GB",
+            "ram":"4GB",
+            "screen":"15.6",
+            "img":"https://www.thunderstore.nz/wp-content/uploads/2023/03/20230326_15485314879.jpg"
+        }
     }
 }
