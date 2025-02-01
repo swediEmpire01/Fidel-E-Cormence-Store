@@ -244,7 +244,7 @@ div.product-container{
 }
 div.product{
     width: 162.5px;
-    height: 250px;
+    height: 275px;
     border-radius: 8px;
     background-color: #F0F0F0;
     margin-bottom: 15px;
@@ -261,7 +261,7 @@ div.product-container div.product-img img{
     width: 80%;
 }
 div.product-container div.product-specs{
-    height: 84px;
+    height: 110px;
     padding: 0 8px;
     display: flex;
     flex-direction: column;
@@ -291,7 +291,7 @@ div.product-container div.product-specs div.spec{
 }
 div.product-container div.product-specs div.spec p{
     font-family: "Poppins", serif;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 600;
     height: max-content;
     margin: 0 0 0 3px;
