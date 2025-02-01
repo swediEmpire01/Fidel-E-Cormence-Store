@@ -115,7 +115,7 @@
             "space":"500GB",
             "ram":"14GB",
             "screen":"15.6",
-            "img":"https://m.media-amazon.com/images/I/61zRDADh+YS._AC_SL1500_.jpg"
+            "img":"./assets/laptops/dell-insprion.png"
         },
         "laptop2":{
             "name":"HP ProBook 440 G4 Business Laptop",
@@ -123,7 +123,7 @@
             "space":"256GB",
             "ram":"16GB",
             "screen":"14",
-            "img":"https://m.media-amazon.com/images/I/61wLKPXpnHL._AC_SX679_.jpg"
+            "img":"./assets/laptops/hp-probook.png"
         },
         "laptop3":{
             "name":"Fujitsu LIFEBOOK AH512",
@@ -131,7 +131,7 @@
             "space":"500GB",
             "ram":"4GB",
             "screen":"15.6",
-            "img":"https://cdn.cs.1worldsync.com/2c/bd/2cbd8bc0-a0ce-43dc-bdee-9c5c4929404b.jpg"
+            "img":"./assets/laptops/Fitjistu-lifebook.png"
         },
         "laptop4":{
             "name":"Lenovo B50-80 laptop - i3 5th Gen",
@@ -139,7 +139,7 @@
             "space":"500GB",
             "ram":"4GB",
             "screen":"15.6",
-            "img":"https://www.thunderstore.nz/wp-content/uploads/2023/03/20230326_15485314879.jpg"
+            "img":"./assets/laptops/lenovo-b50.png"
         }
     }
 }

@@ -120,6 +120,23 @@ async function fetchAndDisplayProducts() {
   
     const data = await response.json();
 
+    console.log(data);
+
+    // This is the laptops array
+    var laptops = data.Laptops;
+    const laptopArray = Object.values(laptops);
+    var laptops = [];
+    for (let key in laptopArray) {
+        if (Object.prototype.hasOwnProperty.call(laptopArray, key)) {
+            const element = laptopArray[key];
+            laptops.push(element); 
+        }
+    }
+    products.push(laptops);
+
+    if (!Array.isArray(laptopArray)) {
+        throw new Error('Invalid data structure - expected laptops to be an object of products');
+    }
 
     // This is the phones array
     var phones = data.phones;
@@ -147,7 +164,6 @@ async function fetchAndDisplayProducts() {
 async function displayProducts() {
     await fetchAndDisplayProducts();
     products[0].forEach(product => {
-        console.log(product);
         createProductCard(product);
     });
 }
