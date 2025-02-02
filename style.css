@@ -323,4 +323,72 @@ div.product-container div.price-action button{
     height: 31px;
     cursor: pointer;
 }
+/* services section */
+section.services{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+section.services h2{
+    width: 100%;
+    font-family: "Poppins", serif;
+    font-size: large;
+    margin-top: 30px;
+}
+div.services-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+div.services-container div.service{
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 325px;
+    height: 275px;
+    border-radius: 8px;
+    background-color: #F0F0F0;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+}
+div.services-container div.service h3{
+    font-family: "Work Sans", serif;
+    font-size: big;
+    margin: 0;
+    padding: 0 8px;
+}
+div.services-container div.service ul li{
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0 8px;
+}
+div.services-container div.service button{
+    background-color: #fff;
+    color: #000;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    height: 60px;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+div.services-container div.service button svg{
+    margin-right: 15px;
+}
+
+
 /* Assets */

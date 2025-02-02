@@ -51,12 +51,12 @@
             "img":"https://media.tracfone.com/wps/contenthandler/dav/content/libraries/wcm.library.phones/components/GPAPI11C64BKP/wcm.comps.image/st_ecom_large.png"
         },
         "iphone6":{
-            "name":"Google Pixel 8A 5G",
-            "price":1200,
-            "space":"128GB",
-            "ram":"8GB",
+            "name":"Apple iPhone XR",
+            "price":4800,
+            "space":"64GB",
+            "ram":"3GB",
             "screen":"6.1",
-            "img":"https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/google-pixel-8a-5g-obsidian-128gb-8gb-ram-front-back-view.png"
+            "img":"https://m.media-amazon.com/images/I/519KIlHA2wL._AC_SL1024_.jpg"
         },
         "iphone7":{
             "name":"Huawei Nova 12i",
@@ -67,38 +67,38 @@
             "img":"https://pepcell.com/cdn/shop/files/huawei12ifrontandback.png?v=1720088239&width=1946"
         },
         "iphone8":{
-            "name":"Apple iPhone 15 Plus",
-            "price":5499,
-            "space":"128GB",
-            "ram":"8GB",
-            "screen":"6.7",
-            "img":"https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/apple-iphone-15-plus-black-128gb-front-back-view.png"
+            "name":"Apple iPhone 7",
+            "price":2500,
+            "space":"256GB",
+            "ram":"4GB",
+            "screen":"4.7",
+            "img":"https://files.refurbed.io/ii/32-gb-schwarz-1562570275.jpg"
         }  
     },
     "Tablets":{
         "tablet1":{
-            "name":"Apple iPad Pro 12.9",
-            "price":1200,
-            "space":"128GB",
-            "ram":"4GB",
-            "screen":"12.9",
-            "img":"https://m.media-amazon.com/images/I/81rxOSprYqL._AC_SX342_.jpg"
-        },
-        "tablet2":{
-            "name":"Apple iPad (10th Generation)",
-            "price":400,
+            "name":"iPad 9 (2021) | 10.2",
+            "price":5500,
             "space":"64GB",
             "ram":"4GB",
-            "screen":"10.9",
-            "img":"https://m.media-amazon.com/images/I/61hZrbHRMWL._AC_SX342_.jpg"
+            "screen":"10.2",
+            "img":"https://m.media-amazon.com/images/I/61ya9r7+jxL._AC_SL1500_.jpg"
+        },
+        "tablet2":{
+            "name":"iPad 6 (2018) | 9.7",
+            "price":400,
+            "space":"128GB",
+            "ram":"2GB",
+            "screen":"9.7",
+            "img":"https://files.refurbed.io/ii/32-gb-gold-lte-wifi-1563814510.jpg?t=fitdesign&h=600&w=800&t=convert&f=webp"
         },
         "tablet3":{
-            "name":"Google Pixel Tab 9 Pro",
-            "price":550,
+            "name":"Samsung Galaxy Tab A9",
+            "price":6000,
             "space":"128GB",
-            "ram":"8GB",
-            "screen":"11",
-            "img":"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6543/6543740cv11d.jpg;maxHeight=2000;maxWidth=2000;format=webp"     
+            "ram":"6GB",
+            "screen":"10.1",
+            "img":"https://d2x1ielih67ej4.cloudfront.net/media/3a/e6/dc/1705424979/SM-X110NDBAEUB%201.webp"     
         },
         "tablet4":{
             "name":"Samsung Galaxy Tab S7 Wi-Fi",
