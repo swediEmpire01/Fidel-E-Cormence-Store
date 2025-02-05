@@ -259,7 +259,9 @@ div.product-container div.product-img{
     cursor: pointer;
 }
 div.product-container div.product-img img{
-    width: 80%;
+    max-height: max-content;
+    min-height: 80%;
+    max-width: 80%;
 }
 div.product-container div.product-specs{
     height: 110px;
@@ -328,8 +330,8 @@ section.services{
     width: 90%;
     margin-left: 5%;
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    align-items: center;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 section.services h2{
@@ -340,9 +342,12 @@ section.services h2{
 }
 div.services-container{
     width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 25px;
+    justify-items: center;
+    align-items: center;
+
 }
 div.services-container div.service{
     width: 100%;
@@ -350,13 +355,13 @@ div.services-container div.service{
     max-width: 325px;
     height: 275px;
     border-radius: 8px;
-    background-color: #F0F0F0;
     margin-bottom: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     padding: 25px;
+    background-color: #F0F0F0;
 }
 div.services-container div.service h3{
     font-family: "Work Sans", serif;
